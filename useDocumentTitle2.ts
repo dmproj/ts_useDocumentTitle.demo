@@ -9,6 +9,7 @@ describe('useDocumentTitle()', () => {
   })
 })
 
+
 // describe('useDocumentTitle()', () => {
 //   test('title should be in the document', () => {
 //     renderHook(() => useDocumentTitle('foo'))
