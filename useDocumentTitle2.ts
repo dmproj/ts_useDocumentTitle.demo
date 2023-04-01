@@ -8,3 +8,10 @@ describe('useDocumentTitle()', () => {
     expect(window.document.title).toEqual('foo')
   })
 })
+
+// describe('useDocumentTitle()', () => {
+//   test('title should be in the document', () => {
+//     renderHook(() => useDocumentTitle('foo'))
+//     expect(window.document.title).toEqual('foo')
+//   })
+// })
